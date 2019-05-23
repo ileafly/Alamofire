@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
 
   s.source_files = 'Source/*.swift'
+  s.static_framework = true
 end
